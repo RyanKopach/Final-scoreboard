@@ -1,0 +1,18 @@
+package scoreboardd;
+
+/**
+ *
+ * @author rkopa
+ */
+public class ScoreBoardLand {  
+    public static void main(String[] args){
+       
+       Scoreboard scoreFinal = new Scoreboard("Penguins", "Away", 3, 0); 
+               
+       String message;
+       message = scoreFinal.getInfo();
+       System.out.println(message);
+
+    }
+
+}
